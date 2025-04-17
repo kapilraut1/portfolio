@@ -1,6 +1,7 @@
 import React from 'react';
 import { HERO_CONTENT } from '../constants';
 import { motion } from "framer-motion";
+import photo from '../assets/kevinRushprofile.png'
 import { FaHandMiddleFinger } from 'react-icons/fa';
 
 const container=(delay)=> ({
@@ -55,7 +56,7 @@ const Hero = () => {
 
         } 
         }
-        alt="photo" />
+        src={photo} alt="photo" />
         </div>
         </div>
       </div>
