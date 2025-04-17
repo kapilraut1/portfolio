@@ -56,7 +56,7 @@ const Hero = () => {
 
         } 
         }
-        src={photo} alt="photo" />
+        alt="photo" />
         </div>
         </div>
       </div>
